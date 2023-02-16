@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+    color: #fff;
+}
+
+body{
+    width: 100%;
+    background: url(./img/bg1.jpg);
+    background-size: cover;
+}
+
+.nav-container ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+
+}
+
+
+.container{
+    margin: 10px;
+    padding: 0;
+
+}
+.container h1, .container span, .container p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.container h1{
+    font-size: 30px;
+}
+
+.container span{
+    font-size: 400px;
+ 
+}
+.container p{
+    position: absolute;
+    top: 80%;
+    left: 32%;
+    font-family: 'Amatic SC', cursive;
+    font-size: 60px;
+}
+
+.glass{
+    background: rgba(255, 255, 255, 0.22);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1.5px);
+    -webkit-backdrop-filter: blur(1.5px);
+}
